@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'deploy' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+5 info lifecycle mombiestreet@0.1.0~predeploy: mombiestreet@0.1.0
+6 verbose lifecycle mombiestreet@0.1.0~predeploy: unsafe-perm in lifecycle true
+7 verbose lifecycle mombiestreet@0.1.0~predeploy: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\windows\Desktop\react\mombiestreet\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\iis express\PHP\v5.3;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\AppServ\Apache2.2\bin;C:\AppServ\php5;C:\AppServ\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\Users\windows\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\cURL\bin;C:\Users\windows\AppData\Local\Microsoft\WindowsApps;C:\Users\windows\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.4\bin;C:\Users\windows\AppData\Local\Microsoft\WindowsApps;C:\Users\windows\AppData\Local\atom\bin;C:\Program Files (x86)\Microsoft VS Code\bin
+8 verbose lifecycle mombiestreet@0.1.0~predeploy: CWD: C:\Users\windows\Desktop\react\mombiestreet
+9 silly lifecycle mombiestreet@0.1.0~predeploy: Args: [ '/d /s /c', 'npm run build' ]
+10 silly lifecycle mombiestreet@0.1.0~predeploy: Returned: code: 0  signal: null
+11 info lifecycle mombiestreet@0.1.0~deploy: mombiestreet@0.1.0
+12 verbose lifecycle mombiestreet@0.1.0~deploy: unsafe-perm in lifecycle true
+13 verbose lifecycle mombiestreet@0.1.0~deploy: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\windows\Desktop\react\mombiestreet\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\iis express\PHP\v5.3;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\AppServ\Apache2.2\bin;C:\AppServ\php5;C:\AppServ\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\Users\windows\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\cURL\bin;C:\Users\windows\AppData\Local\Microsoft\WindowsApps;C:\Users\windows\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.4\bin;C:\Users\windows\AppData\Local\Microsoft\WindowsApps;C:\Users\windows\AppData\Local\atom\bin;C:\Program Files (x86)\Microsoft VS Code\bin
+14 verbose lifecycle mombiestreet@0.1.0~deploy: CWD: C:\Users\windows\Desktop\react\mombiestreet
+15 silly lifecycle mombiestreet@0.1.0~deploy: Args: [ '/d /s /c', 'gh-pages -d build' ]
+16 silly lifecycle mombiestreet@0.1.0~deploy: Returned: code: 1  signal: null
+17 info lifecycle mombiestreet@0.1.0~deploy: Failed to exec deploy script
+18 verbose stack Error: mombiestreet@0.1.0 deploy: `gh-pages -d build`
+18 verbose stack Exit status 1
+18 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+18 verbose stack     at emitTwo (events.js:106:13)
+18 verbose stack     at EventEmitter.emit (events.js:191:7)
+18 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+18 verbose stack     at emitTwo (events.js:106:13)
+18 verbose stack     at ChildProcess.emit (events.js:191:7)
+18 verbose stack     at maybeClose (internal/child_process.js:877:16)
+18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+19 verbose pkgid mombiestreet@0.1.0
+20 verbose cwd C:\Users\windows\Desktop\react\mombiestreet\build
+21 error Windows_NT 10.0.15063
+22 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "deploy"
+23 error node v6.9.1
+24 error npm  v3.10.8
+25 error code ELIFECYCLE
+26 error mombiestreet@0.1.0 deploy: `gh-pages -d build`
+26 error Exit status 1
+27 error Failed at the mombiestreet@0.1.0 deploy script 'gh-pages -d build'.
+27 error Make sure you have the latest version of node.js and npm installed.
+27 error If you do, this is most likely a problem with the mombiestreet package,
+27 error not with npm itself.
+27 error Tell the author that this fails on your system:
+27 error     gh-pages -d build
+27 error You can get information on how to open an issue for this project with:
+27 error     npm bugs mombiestreet
+27 error Or if that isn't available, you can get their info via:
+27 error     npm owner ls mombiestreet
+27 error There is likely additional logging output above.
+28 verbose exit [ 1, true ]
