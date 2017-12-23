@@ -1,0 +1,96 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.imgs {
+  margin-top: -20px;
+  width: 100%;
+  filter: grayscale(50%);
+}
+
+.Navbar {
+  background-color: #fff;
+  height: 8em;
+}
+
+.menu-font {
+  font-weight: 500;
+  color: #878787;
+}
+
+.textBefor {
+  position: absolute;
+  top: 0;
+  left: 1em;
+  font-size: 46px;
+  font-weight: 700;
+  text-shadow: 0px 1px 1px #000;
+  color: white;
+  z-index: 2;
+}
+
+.hightlight {
+  color: #FDC22F;
+}
+
+.relative {
+  position: relative;
+}
+
+/* helper */
+.marginTop30 {
+  margin-top: 30px;
+}
+
+.textAlign {
+  text-align: center
+}
+
+.card {
+  position: relative;
+  background-color: black;
+  width: 341px;
+  height: 351px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 3px 3px 20px #000;
+  overflow: hidden;
+}
+
+
+
+
+
+/* section bottom line */
+.sectionBottom {
+  background-color: black;
+  color: white;
+  padding: 10px 0px 30px 0px;
+}
+
+/* section Ourexpert */
+.sectionOurexpert {
+  background-color: #FDC22F;
+  padding: 5em 5em;
+}
+
+.marginBottom {
+  margin-bottom: 50px;
+}
+
+.text {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+/* section Footer */
+.sectionFooter {
+  background-color: black;
+  color: white;
+  padding: 80px 80px;
+}
